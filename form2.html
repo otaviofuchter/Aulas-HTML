@@ -91,6 +91,7 @@
 </head>
 
 <body class="home">
+    <div id="tudo">
     <div class="topo">
         <header class="topo_header">
             <hgroup>
@@ -104,12 +105,49 @@
         <main>
             <section>
                 <h1>Mais elementos para campos de formularios</h1>
+
+                <from>
+                    <button type="button">Botão</button>
+                    <select>
+                        <optgroup label="Frutas">
+                            <option>Abacaxi</option>
+                            <option>Banana</option>
+                            <option>Laranja</option>
+                        </optgroup>
+
+                        <optgroup label="Bairros">
+                            <option>Boa Vista</option>
+                            <option>Otávio Almieda</option>
+                            <option>Iririu</option>
+                        </optgroup>
+                    </select>
+
+                    <label class="bck">Sexo
+                        <input name="sexo" list="sexos">
+                            <datalist id="sexos">
+                                <option value="Feminino">
+                                <option value="Masculino">
+                            </datalist>
+                    </label>
+
+                    <label for="msg">Sua Mensagem</label>
+
+                    <textarea id="msg" rows="6" cols="30"></textarea>
+                </from>
             </section>
         </main>
-
-
+    </div>
+    <!--/.PRINCIPAL-->
+    <div class="rodape">
+        <footer>
+            <small>Pagina desenvolvida por Otávio Almeida</small>
+        </footer>
+    </div><!--/.RODAPE-->
     </div>
 
+
+
+    <address>Otávio Almeida</address>
     
 </body>
 </html>
